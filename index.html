@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="chart.css">
+</head>
+<body>
+<div ng-controller="AppController" style="width:500px;">
+
+<canvas tc-chartjs-bar chart-options="options" chart-data="data" auto-legend ng-click="chartClick($event)" chart="chart"></canvas>
+     <canvas tc-chartjs-doughnut chart-options="optionsDoughnut" chart-data="doughnutdata" auto-legend></canvas>
+</div>
+
+</body>
+<script src="angular.js"></script>
+<script src="chart.js"></script>
+
+<script src="chartController.js"></script>
+
+
+
+</html>
